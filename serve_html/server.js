@@ -45,7 +45,7 @@ const server = http.createServer((req, res) => {
         fileStream.pipe(res);
     }
     else if (status.isDirectory()){
-        res.writeHead(302, {'Location': 'services.html'}).end();
+        res.writeHead(302, {'Location': '/HTML/services.html'}).end();
     }
     else{
         res.writeHead(500, {'Content-Type': mimeTypes.html}).end(`<center><h1> 500 Internal Error</h1></center>`)
