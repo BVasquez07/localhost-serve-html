@@ -5,9 +5,7 @@
 const http = require('http');
 const path = require('path');
 const fs = require('fs');
-const url = require('url');
 //const bootstrap = require('bootstrap');
-const { MIMEType } = require('util');
 //importing the necessary modules. 
 
 const mimeTypes = {//types of files we are serving and their mime type
