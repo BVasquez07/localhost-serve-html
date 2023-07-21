@@ -1,0 +1,15 @@
+{
+  "name": "html_web_server",
+  "version": "1.0.0",
+  "description": "simple html server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Brandon Vasquez",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.0"
+  }
+}
